@@ -53,11 +53,11 @@ class ViewController: UIViewController {
         {
             score += 1
             scoreLabel.text = "Score: \(score)"
-//            ProgressHUD.showSuccess("Correct!")
+            ProgressHUD.showSuccess("Correct!")
         }
         else
         {
-//            ProgressHUD.showError("Wrong!")
+            ProgressHUD.showError("Wrong!")
         }
         
         if (currentQuestion <= allQuestions.list.count - 1)
